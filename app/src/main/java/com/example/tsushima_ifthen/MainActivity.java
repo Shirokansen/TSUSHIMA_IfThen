@@ -43,53 +43,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
         }
 
-        Character sex;
-        int age;
-        boolean withParents;
 
-        if(age>=18){
-            if(sex =='M' || sex == 'm'){
-                if(withParents) == true){
-                    display.setText("Proceed to the legal section for men");
-                }
-                    else{
-                    display.setText("ERROR: Proceed to signing area");
-                }
-            }
-            else if (sex == 'F' || sex == 'f'){
-                if(withParents) == true){
-                    display.setText("Proceed to the legal section for women");
-                }
-                    else{
-                    display.setText("ERROR: Proceed to signing area");
-                }
-
-            }
-            else{
-
-            }
-
-            if(age<=17){
-                if(sex =='M' || sex == 'm'){
-                    if(withParents) == true){
-                        display.setText("Proceed to the minors section for boys");
-                    }
-                    else{
-                        display.setText("ERROR: BOI WHERE YOU PARENTS AT?!");
-                    }
-                }
-                else if (sex == 'F' || sex == 'f'){
-                    if(withParents) == true){
-                        display.setText("Proceed to the minors section for boys");
-                    }
-                    else{
-                        display.setText("ERROR: BOI WHERE YOU PARENTS AT?!");
-                    }
-                }
-                else{
-
-                }
-            }
 
 
     }
